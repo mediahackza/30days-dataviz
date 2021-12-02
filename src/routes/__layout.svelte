@@ -1,6 +1,16 @@
 <script>
+	import { onMount } from 'svelte';
 	import '../../static/global.css';
 	import Icon from '../components/Icon.svelte';
+
+	onMount(() => {
+		var links = document.getElementsByTagName('a');
+		var len = links.length;
+
+		for (var i = 0; i < len; i++) {
+			links[i].target = '_blank';
+		}
+	});
 </script>
 
 <div class="cover">
