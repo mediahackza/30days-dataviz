@@ -4,7 +4,7 @@
 </script>
 
 <div class="cover">
-	<img src="/static/images/cover-buildings.jpg" alt="buildings" />
+	<img src="/images/cover-buildings.jpg" alt="buildings" />
 </div>
 <main>
 	<div class="main-head">
