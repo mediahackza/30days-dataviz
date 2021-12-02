@@ -1,5 +1,7 @@
 ---
 title: 'Day 1 - Setting up Svelte'
+image: 'nyc.jpg'
+credit: 'Chris Schippers'
 ---
 
 ## Prerequistites and preparations

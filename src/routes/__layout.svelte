@@ -15,6 +15,9 @@
 
 <div class="cover">
 	<img src="/images/cover-buildings.jpg" alt="buildings" />
+	<div class="caption">
+		Today's photo by [Jonas Ferlin](https://www.pexels.com/@jonas) via [Pexels](https://pexels.com).
+	</div>
 </div>
 <main>
 	<div class="main-head">
