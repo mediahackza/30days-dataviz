@@ -3,14 +3,10 @@
 	import { onMount } from 'svelte';
 	import '../../static/global.css';
 	import Icon from '../components/Icon.svelte';
+	import { addTargetsToLinks } from '../functions.js';
 
 	onMount(() => {
-		var links = document.getElementsByTagName('a');
-		var len = links.length;
-
-		for (var i = 0; i < len; i++) {
-			links[i].target = '_blank';
-		}
+		// addTargetsToLinks();
 	});
 </script>
 
@@ -27,7 +23,9 @@
 		<h1>Svelte, D3.js & Data Visualisation</h1>
 		<h3>A 30-day experiment to create a set of component-based charts using Svelte and D3.js.</h3>
 	</div>
-	<nav><a href="/" class="icon-link"><Icon name="home" /></a> &nbsp; <a href="/day1">Day 1</a></nav>
+	<nav>
+		<a href="/" class="icon-link"><Icon name="home" /></a>
+	</nav>
 	<slot />
 </main>
 

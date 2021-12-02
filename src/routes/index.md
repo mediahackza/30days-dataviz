@@ -37,9 +37,13 @@
     	**Resources**: The [D3 gallery](https://observablehq.com/@d3/gallery)
     	has examples of graphics created using D3.js
 
-    	## Why Svelte and D3.js? There are many reasons for
+    	## Why Svelte and D3.js?
+
+    	There are many reasons for
     	combining D3 and Svelte but the biggest is that they complement each other really well. In this series
     	we'll look at how to take the best of D3 and the best of Svelte to make something amazing. (More
     	reasons may follow but for noe that will do).
+
+    	Click the link below to start.
 
     	### [Day 1 - Setting up Svelte](/day1)

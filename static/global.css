@@ -28,7 +28,12 @@ h5,
 h6 {
 	font-family: 'Titillium Web', Arial, Helvetica, sans-serif;
 	font-weight: 700;
+	/* margin-top: 50px; */
+}
+blockquote h3,
+blockquote h4 {
 	margin: 0px;
+	color: indianred;
 }
 .main-head h3,
 .main-head h4 {
@@ -38,27 +43,45 @@ h6 {
 	margin-top: 30px;
 }
 nav {
-	width: 100%;
+	width: 96%;
 	text-align: center;
-	font-size: 0.8rem;
+	font-size: 1rem;
 	text-transform: uppercase;
-	background: #eee;
-	padding: 10px;
+	/* background: #eee; */
+	/* padding: 2%; */
 	margin-bottom: 30px;
-	border: solid 1px lightgray;
+	/* border: solid 1px lightgray; */
 }
 code {
+	display: block;
 	/* padding: 10px; */
 	font-family: 'Roboto Mono', Arial, Helvetica, sans-serif;
 	font-size: 0.9rem;
+	padding: 5px 10px;
+	border: solid 1px lightgray;
+	margin: 20px 20px;
+	background: rgb(243, 243, 243);
+	width: 100%;
+	color: #000;
+	font-weight: 500;
 }
 blockquote {
 	background: #eee;
-	padding: 10px;
+	padding: 20px;
 }
 .caption {
 	font-size: 0.9rem;
 	padding: 0px 10px 10px 10px;
 	color: rgb(180, 180, 180);
 	float: right;
+}
+hr {
+	border: solid 1px lightgray;
+}
+.nav-links {
+	text-align: right;
+}
+.nav-links a {
+	text-decoration: none;
+	border-bottom: none;
 }
