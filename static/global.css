@@ -85,3 +85,8 @@ hr {
 	text-decoration: none;
 	border-bottom: none;
 }
+em {
+	color: indianred;
+	font-style: normal;
+	font-weight: 700;
+}

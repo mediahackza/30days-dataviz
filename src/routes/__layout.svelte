@@ -22,6 +22,11 @@
 	<div class="main-head">
 		<h1>Svelte, D3.js & Data Visualisation</h1>
 		<h3>A 30-day experiment to create a set of component-based charts using Svelte and D3.js.</h3>
+		<div class="subscribe">
+			Want to know when new sections are added to this series? <a
+				href="https://mediahack.co.za/datavizgeek/updates.html">Subscribe to updates</a
+			>.
+		</div>
 	</div>
 	<nav>
 		<a href="/" class="icon-link"><Icon name="home" /></a>
@@ -45,6 +50,9 @@
 	}
 	.cover img {
 		width: 100%;
+	}
+	.subscribe {
+		font-weight: 300;
 	}
 
 	@media only screen and (max-width: 800px) {

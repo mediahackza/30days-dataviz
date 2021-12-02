@@ -1,16 +1,14 @@
 ---
 title: 'Day 1 - Setting up Svelte'
-image: 'nyc.jpg'
-credit: 'Chris Schippers'
+nextlink: 'day2'
+nexttext: 'Day 2'
 ---
 
-<span id="day1"></span>
+<p class="nav-links">
+<a href="/{nextlink}">Next: {nexttext}</a>
+</p>
 
 # Day 1 - Setting up Svelte
-
-<p class="nav-links">
-<a href="/day2">Next: Day 2</a>
-</p>
 
 > ### Prerequistites and preparations
 >
