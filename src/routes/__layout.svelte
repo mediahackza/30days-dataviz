@@ -1,4 +1,5 @@
 <script>
+	import Header from '../components/Header.svelte';
 	import { onMount } from 'svelte';
 	import '../../static/global.css';
 	import Icon from '../components/Icon.svelte';
@@ -13,6 +14,7 @@
 	});
 </script>
 
+<Header />
 <div class="cover">
 	<img src="/images/cover-buildings.jpg" alt="buildings" />
 	<div class="caption">
@@ -45,5 +47,10 @@
 	}
 	.cover img {
 		width: 100%;
+	}
+
+	@media only screen and (max-width: 800px) {
+		.main-head {
+		}
 	}
 </style>
