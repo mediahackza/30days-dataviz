@@ -46,4 +46,4 @@
 
     	Click the link below to start.
 
-    	### [Day 1 - Setting up Svelte](/day1)
+    	Next: [Day 1 - Setting up Svelte](/day1)

@@ -1,7 +1,7 @@
 <div class="header">
 	<div class="menu">
 		<div class="menu-logo">
-			<img src="/images/logo.png" alt="MHC Logo" />
+			<a href="/"><img src="/images/logo.png" alt="MHC Logo" /></a>
 		</div>
 		<div class="menu-links">
 			<div class="menu-item">

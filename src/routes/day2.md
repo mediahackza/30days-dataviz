@@ -1,4 +1,4 @@
-# Day 2 - Basics of Svelte components
+# Day 2 - The basics of Svelte components
 
 Svelte, like many modern Javascript frameworks, are component-based. In its simplest form this means that parts of a Svelte app can be removed from the main file and put in their own file, or "component". This component can then be included back in the main file where ever it is needed.
 
@@ -41,3 +41,5 @@ The new button component shouln now be added to your app. To test this, start up
 You should now see your button on the main app page below the text.
 
 To test it further, duplicate the component line a few times. If you do this and reload you should see multiple instances of your button.
+
+Back: [Day 1 - Setting up Svelte](/day) | Next: [Day 3](/day3)

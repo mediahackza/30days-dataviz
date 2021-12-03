@@ -4,9 +4,10 @@ nextlink: 'day2'
 nexttext: 'Day 2'
 ---
 
-<p class="nav-links">
-<a href="/{nextlink}">Next: {nexttext}</a>
-</p>
+<svelte:head>
+
+<title>MediaHack - {title}</title>
+</svelte:head>
 
 # Day 1 - Setting up Svelte
 
@@ -97,14 +98,15 @@ To get started we can delete the code in the _src/App.svelte_ file and replace i
 
 Open the _src/App.svelte_ file in VS Code and delete everything in that file. Then paste in the following code:
 
-`<script></script>`
-` <div>`
-` <h2>`
-` 30 Days of Svelte and D3.js`
-` </h2>`
-`</div>`
-` <style>`
-` </style>`
+```
+<script></script>
+    <div>
+        <h2>
+            30 Days of Svelte and D3.js
+        </h2>
+    </div>
+<style></style>
+```
 
 > ### Svelte file structure
 >
@@ -116,6 +118,6 @@ To make sure things are working as expected you can run the dev server to compil
 
     `npm run dev`
 
-Again, click on the http://localhost:5000 (or type that into your browser) to view your new page.
+Click on the [http://localhost:5000](http://localhost:5000) link again (or type that into your browser) to view your new page.
 
----
+Next: [Day 2 - The basics of Svelte components](/day2)
